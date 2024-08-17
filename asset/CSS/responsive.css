@@ -1,0 +1,318 @@
+@media only screen and (min-width : 768px) and (max-width : 991px)  {
+/* ------------------Banner Responsive Start---------------- */
+.banner-text-are{
+    text-align: center;
+    padding: 130px 0px;
+    color: aliceblue;
+    width: 60%;
+}
+
+.banner-text-are h1{
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    word-spacing: 4px;
+}
+/* ------------------Banner Responsive End---------------- */
+
+/* ------------------About Responsive Start---------------- */
+.about-content-box{
+    margin-bottom: 100px;
+}
+.about-content-slid{
+    padding-left:150px;
+}
+/* ------------------About Responsive End---------------- */
+
+/* ------------------Game Future Responsive Start---------------- */
+.gmae-future-photo{
+    width: 100%;
+    min-height:60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.future-opacity{
+    min-height: 60vh;
+    width: 100%;
+    background: #000;
+    opacity: 70%;
+}
+/* ------------------Game Future Responsive End---------------- */
+
+/* ------------------System Requirment Responsive Start---------------- */
+.system-requirment-row-padding{
+    padding: 50px 0;
+}
+.system_requirment_conten_box{
+    padding-top: 50px;
+}
+.available-steam-margin{
+    margin-bottom: 50px;
+}
+/* ------------------System Requirment Responsive End---------------- */
+
+/* ------------------Review Responsive Start---------------- */
+.review-margin{
+    margin-bottom: 50px;
+}
+.reviews-box{
+    padding: 50px 0;
+}
+.reviews-box h5{
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-bottom: 40px ;
+}
+/* ------------------Review Responsive End---------------- */
+
+
+/* ------------------Subacribe Responsive Start---------------- */
+.subscribe-margin{
+    margin-bottom: 50px;
+}
+.subscribe-content{
+    padding-left: 0px;
+}
+/* ------------------Subacribe Responsive End---------------- */
+
+
+/* ------------------Banner Responsive Start---------------- */
+.footer-manu{
+    display: none;
+}
+.footer-box{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ------------------Banner Responsive End---------------- */
+
+}
+
+
+@media only screen and (min-width : 576px) and (max-width : 768px){
+/* ------------------Banner Responsive Start---------------- */    
+.banner-text-are{
+    text-align: center;
+    padding: 100px 0px 50px 0px;
+    color: aliceblue;
+    width: 75%;
+}
+
+.banner-text-are h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    word-spacing: 4px;
+}
+.banner-text-are p{
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+.banner_purchare_are{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 7px;
+    background: rgba(0, 255, 255, 0.213);
+    border-radius: 3px;
+}
+
+ .btn-group .btn{
+    color: var(--hover-color) !important;
+    font-size: 1rem;
+    transition: .3s ease-in-out;
+}
+/* ------------------Banner Responsive End---------------- */
+
+/* ------------------About Responsive Start---------------- */
+.abut-row-padding{
+    padding: 40px 0;
+    
+}
+.about-content-box{
+    margin-bottom: 100px;
+}
+
+.about-content-top span{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    
+}
+.about-content-top h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    word-spacing:5px;
+    line-height: 30px;  
+}
+
+.about-content-slid{
+    padding-left:120px;
+}
+/* ------------------About Responsive End---------------- */
+
+/* ------------------Game Future Responsive Start---------------- */
+.gmae-future-photo{
+    width: 100%;
+    min-height:60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.future-opacity{
+    min-height: 60vh;
+    width: 100%;
+    background: #000;
+    opacity: 70%;
+}
+
+.accrodion::before{
+    position: absolute;
+    content: '';
+    height: 371px;
+    width: 1px;
+    background: var(--text-color);
+    top: 8px;
+    left: 26px;
+}
+.game-future-conten-box{
+    color: var(--text-color);
+    padding: 30px 0 10px 0 ;
+    margin-bottom: -50px;
+}
+/* ------------------Game Future Responsive End---------------- */
+
+/* ------------------System Requirment Responsive Start---------------- */
+.system-requirment-row-padding{
+    padding: 40px 0;
+}
+.system_requirment_conten_box{
+    padding-top: 20px;
+}
+.available-steam-margin{
+    margin-bottom: 50px;
+}
+
+.system_feture_title_text h6{
+    font-size: 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+.system_feture_title_text h2{
+    font-size: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: var(--text-color);
+    word-spacing: 5px;
+}
+.system_tb_text{
+    color: var(--hover-color);
+    font-size: 1.2rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 5px;
+
+}
+/* ------------------System Requirment Responsive End---------------- */
+
+/* ------------------Avilable System Responsive Start---------------- */
+.available-content-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.available-left-conten h5{
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+}
+/* ------------------Avilable System Responsive End---------------- */
+
+/* ------------------Review Responsive Start---------------- */
+.review-margin{
+    margin-bottom: 40px;
+}
+.reviews-box{
+    padding: 50px 0;
+}
+.reviews-box h5{
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-bottom: 40px ;
+}
+/* ------------------Review Responsive End---------------- */
+
+/* ------------------Subacribe Responsive Start---------------- */
+.subscribe-padding{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+.subscribe-margin{
+    margin-bottom: 50px;
+}
+.subscribe-content{
+    padding-left: 0px;
+}
+.subscribe-content h2{
+    color: var(--text-color);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+/* ------------------Subacribe Responsive End---------------- */
+
+/* ------------------Footer Responsive Start---------------- */
+.footer-manu{
+    display: none;
+}
+.footer-box{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ------------------Footer Responsive End---------------- */
+
+}
+
+
+/* ------------------Banner Responsive Start---------------- */
+/* ------------------Banner Responsive End---------------- */
+
+/* ------------------Banner Responsive Start---------------- */
+/* ------------------Banner Responsive End---------------- */
+

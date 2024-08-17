@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* @import url('https://unused-css.com/tools/clip-path-generator?p=22EwVgXKA0BsCMB01wGZqJgpYDsJKhxAG4SBiABkqqA'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    text-decoration: none;
+}
+:root{
+    --text-color: rgb(244, 244, 244);
+    --hover-color:rgb(10, 230, 179);
+}
+/* ======================Header Part Start=================================== */
+.header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 999;
+}
+body{
+    background: #000;
+}
+/* .row{
+    padding: 110px 0;
+} */
+#toggle-btn{
+    /* border: 2px solid var(--text-color) !important; */
+    color: var(--text-color);
+}
+.navbar-toggler-icon {
+    color: var(--text-color) !important;
+    z-index: 99;
+}
+.navbar-brand{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background: linear-gradient(270deg, #02f3e3,#ff14f3) ;
+    background-clip: text !important;
+    color: transparent !important;
+    
+}
+.navbar-nav{
+   margin: 0 auto;
+}
+.nav-bg{
+    /* background: #000000b0; */
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    position: relative;
+    color: var(--text-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0rem 0rem !important;
+    transition: .3s ease-in-out;
+}
+.nav-item .nav-link:hover{
+    color: var(--hover-color);
+    transform: scale(1.05);
+}
+.nav-item .nav-link::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, #02f3e3,#ff14f3);
+    left: 0;
+    bottom: -0.1px;
+    transform: scaleX(0);
+    transition: .3s ease-in-out;
+    transform-origin: left;
+}
+.nav-item .nav-link:hover::after{
+    transform: scaleY(1);
+    transform-origin: right;
+}
+.contact-btn{
+    color: var(--text-color) !important;
+    background: linear-gradient(270deg, #02f3e3,#ff14f3);
+    border: none;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 8px 20px 4px 20px;
+    transition: .4s ease-in-out;
+}
+.contact-btn:hover{
+    transform: scale(1.02);
+}
+/* ======================Header Part End=================================== */
+
+
+/* ======================Banner Part Start=================================== */
+.banner-photo{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.banner-opacity{
+    background: #000;
+    width: 100%;
+    opacity: 80%;
+}
+.banner-text-are{
+   text-align: center;
+    padding: 150px 0px;
+    color: aliceblue;
+    width: 50%;
+}
+.banner-text-are h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    word-spacing: 4px;
+}
+.banner-text-are p{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+.banner_purchare_are{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    background: rgba(0, 255, 255, 0.213);
+    border-radius: 3px;
+   
+}
+.btn-group .btn{
+    color: var(--hover-color) !important;
+    font-size: 1.3rem;
+    transition: .3s ease-in-out;
+}
+.btn-group .btn:hover{
+    color: var(--text-color) !important;
+    transform: scale(1.02);
+}
+.b_btn_m_l{
+    border-right: 2px solid var(--hover-color);
+}
+.banner_view_box{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+   
+}
+.bann-view_box_one span{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    cursor:default;
+    transition: .3s ease-in-out;
+}
+.bann-view_box_one span:hover{
+    color: var(--hover-color);
+    transform: scale(1.02);
+}
+.bann-view_box_one p{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    transition: .3s ease-in-out;
+    cursor: default;
+}
+.bann-view_box_one p:hover{
+    color: var(--hover-color);
+    transform: scale(1.02);
+}
+/* ======================Banner Part End=================================== */
+
+/* ======================About Part Start=================================== */
+.abut-row-padding{
+    padding: 120px 0;
+    
+}
+.about-photo{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.about-opacity{
+    width: 100%;
+    background: #000;
+    opacity: 80%;
+}
+.about-content-top{
+    border-bottom: 2px solid var(--text-color);
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+.about-content-top span{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    
+}
+.about-content-top h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    word-spacing:5px;
+    line-height: 45px;
+    
+}
+
+.about-content-box p{
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    word-spacing:1px;
+    line-height: 24px; 
+    color: var(--text-color);
+}
+.about-content-slid{
+    padding-left:40px;
+}
+/* ======================About Part End=================================== */
+
+/* ======================Game Future Part Start=================================== */
+.gmae-future-photo{
+    width: 100%;
+    min-height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.future-opacity{
+    min-height: 100vh;
+    width: 100%;
+    background: #000;
+    opacity: 70%;
+}
+.game-future-conten-box{
+    color: var(--text-color);
+    padding: 50px 0;
+}
+.game-future-conten-box span{
+    font-size: 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-left: 20px;
+    
+}
+.game-future-conten-box h2{
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding-left: 20px;
+}
+.game-future-bottom-tex{
+    position: relative;
+}
+.accrodion li{
+    width: 100%;
+    margin: 10px;
+    /* padding: 10px; */
+    list-style: none;
+}
+.accrodion li label{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: var(--hover-color);
+    position: relative;
+    padding-bottom: 18px;
+}
+.accrodion li label::after{
+      position: absolute;
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: var(--text-color);
+      border-radius: 50%;
+      left: -20px;
+      top: 7px;
+
+}
+.accrodion{
+    position: relative;
+}
+.accrodion::before{
+    position: absolute;
+    content: '';
+    height: 437px;
+    width: 1px;
+    background: var(--text-color);
+    top: 8px;
+    left: 26px;
+}
+.accrodion input[type="radio"]{
+    display: none;
+}
+.accrodion .content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+
+}
+.accrodion input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+}
+.content span{
+    color: var(--hover-color);
+    margin-left: -20px;
+}
+.content p{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgba(253, 253, 253, 0.994);
+    line-height: 19pxpx;
+}
+
+/* ======================Game Future Part End=================================== */
+
+/* ======================System Requirment Part Start=================================== */
+.system-requirment-row-padding{
+    padding: 120px 0;
+}
+.system-requirment-background{
+   width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.system-requirment-opacity{
+    opacity: 80%;
+    background: #000;
+    width: 100%;
+}
+.system_feture_title_text h6{
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+.system_feture_title_text h2{
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    color: var(--text-color);
+    word-spacing: 5px;
+}
+.system_requirment_conten_box{
+    padding-top: 80px;
+}
+.system_re_lis_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.system_table_border{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.system_tb_text{
+    color: var(--hover-color);
+    font-size: 1.6rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 5px;
+
+}
+.sestem_tb_P_area {
+    margin-top: 10px;
+}
+.sestem_tb_P_area p{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgba(253, 253, 253, 0.994);
+    line-height: 8px;
+    padding-left: 5px;
+   
+
+}
+/* ======================System Requirment Part End=================================== */
+
+/* ======================Availeable Stem Part Start=================================== */
+.available-steam-photo{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.available-steam-opacity{
+    opacity: 90%;
+    background: #000;
+    width: 100%;
+}
+.available-content-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+}
+.available-left-conten h5{
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.available-left-conten p{
+    color: var(--text-color);
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.available-left-conten .play-btn{
+   color: var(--hover-color);
+   background: rgba(0, 255, 255, 0.235);
+   border: 1px solid var(--hover-color);
+   backdrop-filter: blur(10px) !important;
+   padding: 10px 20px;
+   transition: .4s ease-in-out;
+}
+.available-left-conten .play-btn:hover{
+    transform: scale(1.1);
+}
+/* ======================Availeable Stem Part End=================================== */
+
+/* ======================reviews Part Start=================================== */
+.reviews-photo{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.reviews-box{
+    padding: 90px 0;
+}
+ .reviews-box h5{
+     color: var(--text-color);
+     font-size: 1.8rem;
+     font-family: "Bebas Neue", sans-serif;
+     font-weight: 500;
+     font-style: normal;
+     text-transform: uppercase;
+     padding-bottom: 50px ;
+ }
+ /* .reviews-opacity{
+    background: #000;
+    min-height: 80vh;
+    opacity: 80%;
+ } */
+ .reviews-content{
+    /* background:  rebeccapurple; */
+    padding: 20px;
+    backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(248, 247, 247, 0.174);
+    position: relative;
+    border-radius: 3px;
+ }  
+ .reviews-content::after{
+    position: absolute;
+    content: '';
+    top: -96px;
+    right: -55px;
+    height: 150px;
+    width: 120px;
+    clip-path: polygon(25% 47.44%, 41% 56.58%, 41% 75%, 25% 75%);
+    background: linear-gradient(290deg, #e503c3cf,#8302a0);
+    
+ }
+ .reviews-content::before{
+    position: absolute;
+    content: '';
+    top: -96px;
+    right: -23px;
+    height: 150px;
+    width: 120px;
+    clip-path: polygon(25% 47.44%, 41% 56.58%, 41% 75%, 25% 75%);
+    background: linear-gradient(370deg, #44f1f4cf,#f805bb);
+    
+ }
+ .reviews-content i{ 
+    background: linear-gradient(270deg, #02f3e3,#ff14f3) ;
+    background-clip: text ;
+    color: transparent ;
+    font-size: 1rem;
+ }
+ .reviews-content p{  
+    color: var(--text-color);
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    /* border-bottom: 1px solid  */
+    padding: 10px 0;
+    position: relative;
+ }
+ .reviews-content p::after{
+   position: absolute;
+   content: '';
+   width: 100%;
+   height: 1px;
+   background: linear-gradient(270deg,#20292C, #02f3e3,#ff14f3);
+   bottom: 0;
+   left: 0;
+ }
+ .review-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .review-left img{
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    margin-right: 10px;
+ }
+ .review-left{
+    display: flex;
+    align-items: center;
+ }
+ .review_left_content .name{
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+ }
+ .review_left_content h6{
+    font-size: 11px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+ }
+ .review-right{
+    display: flex;
+    align-items: center;
+ }
+ .review-right i{
+    background: linear-gradient(270deg, #02f3e3,#ff14f3) ;
+    background-clip: text ;
+    color: transparent ;
+    margin-right: 4px;
+ }
+ .review-right span{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--text-color);
+ }
+/* ======================reviews Part End=================================== */
+
+/* ======================Subscribe Part Start=================================== */
+.subscribe-padding{
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+}
+.subscribe-content-left{
+    background: linear-gradient(270deg, #02f3e3,#ff14f3) ;
+    border-radius: 5px;
+}
+.subscribe-content h6{
+    color: rgb(190, 184, 184);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 0px;
+}
+.subscribe-content{
+    padding-left: 40px;
+}
+.subscribe-content h2{
+    color: var(--text-color);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+.subscribe-content p{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(190, 184, 184);
+}
+.subscribe-form-area{
+    display: flex;
+    align-items: center;
+}
+.subscribe-form-area input{
+    background: rgb(16, 15, 15);
+    border: none !important;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color:var(--text-color); 
+}
+
+.subscribe-form-area button{
+    padding: 10px 20px;
+    background: linear-gradient(270deg, #02f3e3,#ff14f3) ;
+    border: none !important;
+    color:var(--text-color);
+    transition: 0.5s ease-in-out;
+}
+.subscribe-form-area button:hover{
+    background: linear-gradient(270deg,#ff14f3,#02f3e3) ;
+    border: none !important;
+    color:var(--text-color);
+
+}
+/* ======================Subscribe Part End=================================== */
+
+/* ======================Footer Part Start=================================== */
+.footer{
+    background: #151515;
+    backdrop-filter: blur(30px);
+    width: 100%;
+}
+.footer-box{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-socil-media i{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    margin: 5px;
+    background: linear-gradient(270deg, #02f3e3,#ff14f3) ;
+    background-clip: text ;
+    color: transparent ;
+    cursor: pointer;
+}
+.footer-manu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-manu a{
+    text-decoration: none;
+    color:var(--text-color);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: .4s ease-in-out;
+}
+.footer-manu a:hover{
+    background: linear-gradient(270deg, #02f3e3,#ff14f3) ;
+    background-clip: text ;
+    color: transparent ;
+    transform: scale(1.03);
+}
+.footer-logo img{
+    height: 100px;
+    width: 100px;
+}
+/* ======================Footer Part End=================================== */
+
+/* ======================Banner Part Start=================================== */
+/* ======================Banner Part End=================================== */
