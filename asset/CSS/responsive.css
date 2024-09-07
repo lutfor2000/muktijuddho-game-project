@@ -94,7 +94,7 @@
 }
 /* ------------------Banner Responsive End---------------- */
 
-}
+} 
 
 
 @media only screen and (min-width : 576px) and (max-width : 768px){
@@ -308,7 +308,64 @@
 /* ------------------Footer Responsive End---------------- */
 
 }
+@media only screen and (min-width : 480px) and (max-width : 576px){
+.banner-text-are{
+    text-align: center;
+    padding: 100px 0px 50px 0px;
+    color: aliceblue;
+    width: 80%;
+}
 
+.banner-text-are h1{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    word-spacing: 4px;
+}
+
+.banner_purchare_are{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    background: rgba(0, 255, 255, 0.213);
+    border-radius: 3px; 
+}
+.about-content-box{
+    margin-bottom: 100px;
+}
+.about-content-slid{
+    padding-left:120px;
+}
+
+.review-margin{
+    margin-bottom: 40px;
+}
+.subscribe-margin{
+    margin-bottom: 50px;
+}
+
+.footer-manu{
+    display: none;
+}
+
+.footer-box{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+@media only screen and (min-width : 320px) and (max-width : 480px){
+    .banner-text-are h1{
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 500;
+        word-spacing: 4px;
+    }        
+}
 
 /* ------------------Banner Responsive Start---------------- */
 /* ------------------Banner Responsive End---------------- */

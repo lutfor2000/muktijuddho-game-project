@@ -114,9 +114,9 @@ body{
     background-repeat: no-repeat;
 }
 .banner-opacity{
-    background: #000;
     width: 100%;
-    opacity: 80%;
+    opacity: 60%;
+    background-color: #000;
 }
 .banner-text-are{
    text-align: center;
@@ -130,6 +130,8 @@ body{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
     word-spacing: 4px;
+    color: aliceblue;
+
 }
 .banner-text-are p{
     font-size: 1rem;
@@ -195,7 +197,7 @@ body{
 
 /* ======================About Part Start=================================== */
 .abut-row-padding{
-    padding: 120px 0;
+    padding: 30px 0;
     
 }
 .about-photo{
@@ -207,7 +209,7 @@ body{
 .about-opacity{
     width: 100%;
     background: #000;
-    opacity: 80%;
+    opacity: 40%;
 }
 .about-content-top{
     border-bottom: 2px solid var(--text-color);
@@ -241,9 +243,7 @@ body{
     line-height: 24px; 
     color: var(--text-color);
 }
-.about-content-slid{
-    padding-left:40px;
-}
+
 /* ======================About Part End=================================== */
 
 /* ======================Game Future Part Start=================================== */
@@ -363,7 +363,7 @@ body{
     background-repeat: no-repeat;
 }
 .system-requirment-opacity{
-    opacity: 80%;
+    opacity: 50%;
     background: #000;
     width: 100%;
 }
@@ -599,7 +599,8 @@ body{
     align-items: center;
 }
 .subscribe-content-left{
-    background: linear-gradient(270deg, #02f3e3,#ff14f3) ;
+    /* background: linear-gradient(270deg, #02f3e3,#ff14f3) ; */
+    background: #f6f6f6;
     border-radius: 5px;
 }
 .subscribe-content h6{
@@ -701,11 +702,21 @@ body{
     color: transparent ;
     transform: scale(1.03);
 }
+.footer-logo{
+    background: linear-gradient(270deg, #02f3e3,#ff14f3) ;
+    border-radius: 5px;
+}
 .footer-logo img{
     height: 100px;
     width: 100px;
+    
 }
 /* ======================Footer Part End=================================== */
+.slide{
+ 
+  background-position: center !important;
+  background-size: cover;
+}
 
 /* ======================Banner Part Start=================================== */
 /* ======================Banner Part End=================================== */
